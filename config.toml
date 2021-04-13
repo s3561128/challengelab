@@ -1,0 +1,55 @@
+baseurl         = "https://challenge.adi.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+#thats for commenting
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Challenge Lab"
+  subtitle    = "Instructions how I build It"
+
+  cover       = "header.jpeg"
+  description = "challenge lab"
+  metaDescription = "challenge lab"
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  githubName = "s3561128"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Adi"
+  authorAvatar = "profile.jpeg"
+  authorLocation = "Melboure, AUS"
+  authorWebsite = "https://blog.challenge.adi.com"
+  authorDescription = "Cloud engineer, DevOps"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "main"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "blogs"
+  url = "/tags/blogs/"
+  weight = 100
+
+
+[[menu.main]]
+  name = "google"
+  url = "https://google.com/"
+  weight = 95
